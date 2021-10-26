@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635215290962,
+  "lastUpdate": 1635217196393,
   "repoUrl": "https://github.com/Waterpine/dataprep-1",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -620,6 +620,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.053918978869777465",
             "extra": "mean: 6.255049149199988 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "distinct": true,
+          "id": "ef51702fbc97f8cd7f24deac29218e542f42aec4",
+          "message": "docs(eda): add imdt",
+          "timestamp": "2021-10-25T19:55:41-07:00",
+          "tree_id": "66db00db7b1dfaf7eac118cbf6562210ec4a44af",
+          "url": "https://github.com/Waterpine/dataprep-1/commit/ef51702fbc97f8cd7f24deac29218e542f42aec4"
+        },
+        "date": 1635217194506,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.20002142234233752,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008095630017598334",
+            "extra": "mean: 4.999464498800012 sec\nrounds: 5"
           }
         ]
       }
