@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636491284379,
+  "lastUpdate": 1637691156208,
   "repoUrl": "https://github.com/Waterpine/dataprep-1",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -837,6 +837,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.199201350534453",
             "extra": "mean: 4.895493551000004 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "songbian@zju.edu.cn",
+            "name": "waterpine",
+            "username": "Waterpine"
+          },
+          "committer": {
+            "email": "songbian@zju.edu.cn",
+            "name": "waterpine",
+            "username": "Waterpine"
+          },
+          "distinct": true,
+          "id": "5ee6529f9c45dfd36507e09ddcce5632d5f73bbd",
+          "message": "fix(eda):fix saving imdt as json file",
+          "timestamp": "2021-11-23T12:09:01-06:00",
+          "tree_id": "ed9939614be18be9e8e1a92bb3e6b23b775d19a8",
+          "url": "https://github.com/Waterpine/dataprep-1/commit/5ee6529f9c45dfd36507e09ddcce5632d5f73bbd"
+        },
+        "date": 1637691154401,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.2089347608525294,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024846764934459697",
+            "extra": "mean: 4.786182997600008 sec\nrounds: 5"
           }
         ]
       }
